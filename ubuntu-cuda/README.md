@@ -113,6 +113,6 @@ jupyter notebook --allow-root
 ```
 4. use jupyter on your local machine
 now open your browser, and enter `<your server machine ip address>:8888`
-![demo1](figures/demo1.png)
+![demo1](figures/demo1.png)  
 enter the password you set above and you can use the jupyter notebook
 ![demo2](figures/demo2.png)
