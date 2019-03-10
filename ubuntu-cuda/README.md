@@ -103,6 +103,7 @@ vim ~/.jupyter/jupyter_notebook_config.py
 add the following content in the end of file
 ```bash
 c.NotebookApp.ip = '*'
+# c.NotebookApp.ip = '0.0.0.0' (if above doesn't work)
 c.NotebookApp.password = u'sha1:e557db47fba9:4cc97259dafcacxxxxxxb9f17978ab41a1d3(should be your generated key)'
 c.NotebookApp.open_browser = False
 c.NotebookApp.port = 8888
